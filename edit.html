@@ -1,0 +1,49 @@
+<!-- edit.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="./static/css/edit.css">
+    <!-- index.html, add.html, edit.html, detail.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>Edit Profile</h1>
+    <form id="edit-profile-form">
+        <input type="hidden" id="profile-id" name="profile-id">
+
+        <input type="hidden" id="profile-id" name="profile-id">
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*"><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="role-user">Company Name:</label>
+        <input type="text" id="role-user" name="role-user"><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br>
+
+        <label for="description">Bio:</label>
+        <textarea id="description" name="description" rows="4" required></textarea><br>
+
+        <label for="facebook">Facebook:</label>
+        <input type="text" id="facebook" name="facebook"><br>
+
+        <label for="linkedin">LinkedIn:</label>
+        <input type="text" id="linkedin" name="linkedin"><br>
+
+        <button type="submit">Save</button>
+    </form>
+    <button id="back-to-detail">Back to Profile Detail</button>
+
+    <script type="module" src="./static/js/edit.js"></script>
+</body>
+
+</html>

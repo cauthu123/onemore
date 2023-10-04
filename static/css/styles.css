@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+/* ... (các quy tắc CSS khác) */
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* Tạo khung hình tròn */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị bể khi căn giữa */
+    display: block;
+    margin: 0 auto;
+    /* Căn giữa hình ảnh */
+}
+
+.fontawesome {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    /* Điều chỉnh khoảng cách giữa các biểu tượng */
+}
+
+/* Định dạng bảng */
+#profile-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+    border: 2px solid #c9c9c9;
+}
+
+#profile-table th,
+#profile-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#profile-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Định dạng các liên kết "Sửa" và "Xóa" */
+#profile-table a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+#profile-table a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Định dạng nút "Thêm Profile" */
+#add-profile {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-profile:hover {
+    background-color: #0056b3;
+}
+
+#ten {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+#ten:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
